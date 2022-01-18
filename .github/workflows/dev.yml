@@ -21,8 +21,8 @@ jobs:
       - name: Get requirements
         uses: actions/checkout@v2
         with:
-          repository: Gilead-Biometrics-DataEngineering/gpythonvenv
-          token: ${{ secrets.my_pat }}
+          repository: Gilead-Biometrics-DataEngineering-Demo/gpythonvenv
+          token: ${{ secrets.PAT }}
           path: gpythonvenv
       
       - name: Set Up Python ${{ matrix.python-version }}
